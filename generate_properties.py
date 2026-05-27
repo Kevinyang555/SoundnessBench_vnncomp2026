@@ -123,7 +123,7 @@ def main():
         if not os.path.exists(metadata_path):
             raise FileNotFoundError(metadata_path)
 
-        metadata = torch.load(metadata_path, map_location=device, weights_only=False)
+        metadata = torch.load(metadata_path, map_location=device)
         data_min = metadata["data_min"].to(device)
         data_max = metadata["data_max"].to(device)
         spec_mat = metadata["spec_mat"].to(device)
