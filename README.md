@@ -21,7 +21,7 @@ non-ReLU activations**. The goal is to test verifier soundness on a familiar
 Conv/ReLU-style network family rather than to require frontend support for
 unusual operators.
 
-## Funding
+## Acknowledgement
 
 Funding support for this research was provided by The MathWorks under DCRG
 Project No. 304 under the title "Novel Methodologies and Benchmarks for
